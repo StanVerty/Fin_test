@@ -1,7 +1,4 @@
 from utils.screenshots import Screenshots
-from datetime import datetime
-import pytz
-from pytz import timezone
 
 
 class BasePage:

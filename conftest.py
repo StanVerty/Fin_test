@@ -25,7 +25,6 @@ def run_from(request):
 
 @fixture(scope=SCOPE)
 def driver(headless, run_from):
-
     chrome_options = ChromeOptions()
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument("--incognito")

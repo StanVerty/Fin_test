@@ -2,8 +2,6 @@ from time import sleep
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-import configs
-from selenium.webdriver import Chrome
 from pages.base_page import BasePage
 
 
